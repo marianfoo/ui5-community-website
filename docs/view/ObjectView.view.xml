@@ -7,6 +7,7 @@
     xmlns:md="cc.md">
 
 	<semantic:SemanticPage
+	id="page"
 		headerPinnable="false"
 		toggleHeaderOnTitleClick="false"
 		busy="{objectView>/busy}"
@@ -17,7 +18,7 @@
 		</semantic:titleHeading>
 
         <semantic:content>
-            <md:Markdown  content="{packages>readme}" />
+            <md:Markdown id="test" content="{packages>readme}" />
         </semantic:content>
 
 
