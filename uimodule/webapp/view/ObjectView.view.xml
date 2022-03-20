@@ -7,18 +7,17 @@
     xmlns:md="cc.md">
 
 	<semantic:SemanticPage
-		id="page"
 		headerPinnable="false"
 		toggleHeaderOnTitleClick="false"
 		busy="{objectView>/busy}"
 		busyIndicatorDelay="{objectView>/delay}">
 
 		<semantic:titleHeading>
-			<Title id="_IDGenTitle1" text="{packages>name}" />
+			<Title text="{packages>name}" />
 		</semantic:titleHeading>
 
         <semantic:content>
-            <md:Markdown id="_IDGenMarkdown1" content="{packages>readme}" />
+            <md:Markdown  content="{packages>readme}" />
         </semantic:content>
 
 
